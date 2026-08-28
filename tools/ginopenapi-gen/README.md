@@ -48,7 +48,7 @@ go generate ./internal/router/
 ```go
 api := ginopenapi.New(r, ginopenapi.WithTitle("Achilles"), ...)
 api.Scan()
-registerOpenAPIMetadata(api) // 生成的文件提供的函数
+RegisterOpenAPIMetadata(api) // 生成的文件提供的函数
 api.Serve()
 ```
 
