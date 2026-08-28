@@ -4,6 +4,8 @@
 
 它不会接管任何 HTTP 请求：不注册 Huma handler、不修改 Gin middleware、不改动等已有的路由。你已有的 Gin 代码一行都不用改，只需要在启动时加上一层描述。
 
+<img src="docs/docs.png" alt="docs" width="720">
+
 ## 设计原则
 
 - **Gin 管一切请求**，`ginopenapi` 只在「元数据层」工作。
